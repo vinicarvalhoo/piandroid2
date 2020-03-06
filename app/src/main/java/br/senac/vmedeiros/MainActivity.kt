@@ -2,7 +2,6 @@ package br.senac.vmedeiros
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.appcompat.app.AlertDialog
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -13,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
       btnMsg.setOnClickListener {
 
-          alert("bem vindo","Ola " + etNome.text +" " + etSobrenome.text, this)
+          alert("bem vindo","Ola " + etName.text +" " + etSobrenome.text, this)
       }
 
     }
